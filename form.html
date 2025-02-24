@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <label>
+            Username
+            <input type="email" placeholder="enter only emails" title="enter your email" name="username"/><br>
+        </label>
+        <label for="password">Password: </label>
+        <input id="password" type="password" placeholder="enter your password"/>
+        <br>
+           
+            Date
+            <input title="date" type="date"><br>
+            Time
+            <input title="time" type="time"><br>
+            Color
+            <input title="color" type="color"><br>
+            File
+            <input title="file" type="file"><br>
+            Age
+            <input title="age" type="number"><br><br>
+        
+   
+        <button type="button">submit 1</button> 
+        <button type="submit">submit 2</button>
+        <button type="reset">reset</button>
+
+
+
+    </form><hr>
+
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search in youtube" title="searchinyoutube" name="search_query"/><br>
+        <button>search</button>
+    </form>
+
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="search in google" name="q"/><br>
+        <button>search</button>
+    </form>
+    <hr>
+
+    <form action="/server">
+        <input title="checkbox" type="checkbox" id="age" name="age" />
+        <label for="age">I am 18+</label>
+
+        
+        <div>
+            <input type="radio" title="radio" id="radio" name="radio" value="male"/>
+            <label for="radio">male</label>
+            <input type="radio" title="radio" id="radio" name="radio" value="female"/>
+            <label for="radio">female</label>
+        </div><br>
+
+        <div>
+            Select your country
+            <select name="country" id="country" title="select drop down">
+                <option>Choose</option>
+                <option value="ind">Indian</option>
+                <option value="usa">American</option>
+                <option value="rus">Russian</option>
+                <option value="euro">Europian</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="volume">Weight  : </label>
+            <input type="range" id="volume" title="range" min="0" max="1000000"name="weight" step="100"/>
+        </div><hr>
+
+        <label for="feed">Give your valuable feedback</label>
+        <textarea placeholder="enter anything" id="feed" name="feedback"></textarea>
+         
+        <button>submit</button>
+
+        
+    </form>
+
+</body>
+</html>
